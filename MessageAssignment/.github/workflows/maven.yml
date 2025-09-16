@@ -29,7 +29,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      working-directory: MessageAssignment
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file MessageAssignment/pom.xml
 
     
